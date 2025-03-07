@@ -14,7 +14,7 @@ export function transformData(users: User[]): TransformedData {
     // for (let age of ages) {
     //     minAge = Math.min(minAge, age); // minAge จะคงที่เป็น 0 เพราะ 0 < ทุกค่า
     // }
-    // console.log(minAge); // ❌ ผิด! ควรเป็น 20 แต่ได้ 0
+    // console.log(minAge); //  ผิด! ควรเป็น 20 แต่ได้ 0
     for (const user of users) {
         const { company, gender, age, hair, address, firstName, lastName } =
             user
