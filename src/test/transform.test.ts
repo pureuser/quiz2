@@ -23,6 +23,7 @@ const mockUsers: User[] = [
 ]
 
 test('transformData should group users by department', () => {
+    // ทดสอบฟังก์ชัน transformData ว่าสามารถแบ่งข้อมูลตามแผนกได้ถูกต้องหรือไม่
     const result = transformData(mockUsers)
 
     expect(result).toHaveProperty('Engineering')
